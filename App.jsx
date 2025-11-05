@@ -89,13 +89,6 @@ const AsideContent = (props) => {
   );
 };
 
-const FooterContent = () => {
-  return (
-    <footer>
-      <p>La persona a la que la página se basó es: David Gustavo Soto Calderón de 5F casa: Hufflepuff</p>
-    </footer>
-  );
-};
 
 function App() {
   const [selectedItem, setSelectedItem] = useState(null);
